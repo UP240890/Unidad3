@@ -44,3 +44,6 @@ y2=float(input('y2:'))
 m=(y2-y1)/(x2-x1)
 print('pendiente:',m)
 #exercise10#
+print('pendiente mayor:', y2<=m)
+print('pendiente menor:', m<=y2)
+print('pendiente igual:', y2==m)
