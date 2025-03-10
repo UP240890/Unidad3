@@ -29,6 +29,25 @@ print(company.split(' '))
 #exercise14#
 print('Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'.split(','))
 #exercise15#
-print(company.index(0))
+print(company.index('C'))
 #exercise16#
-print(company.index(10))
+print(company.index('A'))
+#exercise17#
+print(company.rindex('A'))
+#exercise18#
+index1 = company[0]
+index2 = company[10]
+print(index1,' - ',index2)
+#exercise18#
+acro1 = 'TDOP'
+#EXERCISE19#
+acro2 = 'CFA'
+#exercise20#
+print(company.index('C'))
+#exercise21#
+print(company.index('F'))
+#exercise22#
+print(company.index('l'))
+#exercise23#
+prhase = 'You cannot end a sentence with because because because is a conjunction'
+print(company.rindex('because'))
