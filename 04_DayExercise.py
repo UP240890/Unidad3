@@ -50,4 +50,17 @@ print(company.index('F'))
 print(company.index('l'))
 #exercise23#
 prhase = 'You cannot end a sentence with because because because is a conjunction'
-print(company.rindex('because'))
+print(prhase.index('because'))
+#exercise24#
+print(prhase.rindex('because'))
+#exercise25#
+print(prhase.replace('because',''))
+#exercise26#
+print(prhase.index('because'))
+#exercise27#
+print(prhase.replace('because',''))
+#exercise28#
+print(company.startswith('coding'))
+#exercise29#
+print(company.startswith('Coding'))
+#exersie29#
