@@ -74,3 +74,10 @@ print(challenge.isidentifier())
 #exercise32#
 print('Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon', sep='\t#')
 #exercise33#
+print('I am enjoying this challenge.','I just wonder what is next.',sep='\t#')    
+#exercise34#
+print('Name\tAge\tCountry\tCity\tAsabeneh\t250\tFinland\tHelsinki')
+#exercise35#
+radius = 10
+area = 3.14 * radius ** 2
+print('The area of a circle with radius 10 is\t', area,  '\tmeters square.')
