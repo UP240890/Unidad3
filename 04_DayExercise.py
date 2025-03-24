@@ -63,4 +63,14 @@ print(prhase.replace('because',''))
 print(company.startswith('coding'))
 #exercise29#
 print(company.startswith('Coding'))
-#exersie29#
+#exercie30#
+dou = '&nbsp;&nbsp; Coding For All &nbsp;&nbsp;&nbsp; &nbsp;'
+print(dou.replace('&nbsp;',''))
+#exercise31#
+challenge = '30DaysOfPython'
+print(challenge.isidentifier())
+challenge = 'thirty_days_of_python'
+print(challenge.isidentifier()) 
+#exercise32#
+print('Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon', sep='\t#')
+#exercise33#
