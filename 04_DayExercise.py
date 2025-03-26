@@ -80,4 +80,20 @@ print('Name\tAge\tCountry\tCity\tAsabeneh\t250\tFinland\tHelsinki')
 #exercise35#
 radius = 10
 area = 3.14 * radius ** 2
-print('The area of a circle with radius 10 is\t', area,  '\tmeters square.')
+result = 'The area of a circle with radius {} is {}'.format(str(radius), str(area))
+print(result)
+#exercise36#
+r=8 + 6 
+print(r.is_integer(),r)
+r=8 - 6 
+print(r.is_integer(),r)
+r=8 * 6 
+print(r.is_integer(),r)
+r=8 / 6 
+print(r.is_integer(),r)
+r=8 % 6
+print(r.is_integer(),r)
+r=8 // 6 
+print(r.is_integer(),r)
+r=8 ** 6 
+print(r.is_integer(),r)
