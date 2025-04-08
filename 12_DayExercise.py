@@ -15,8 +15,8 @@ def random_user_id():
 
 def user_id_gen_by_user():
     word = ''
-    numChar = int(input("Enter the number of characters: "))
-    numUser = int(input("Enter the number of user names: "))
+    numChar = int(input("Introduzca el número de caracteres: "))
+    numUser = int(input("Introduzca el número de nombres de usuario: "))
     char = string.ascii_letters + string.digits
     for c in range(numUser):
         for i in range(numChar):
@@ -75,7 +75,7 @@ def generate_colors(colorType,n):
         return rgb
 
     else:
-        print(f"Color type no valid")
+        print(f"Sintax Error")
 
 
 import random as rd
